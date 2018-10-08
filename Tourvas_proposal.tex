@@ -1,0 +1,262 @@
+\documentclass[12pt,a4paper,]{report}
+\usepackage{lmodern}
+\usepackage{setspace}
+\setstretch{1.15}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+    \setmainfont[]{Liberation Serif}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Ανάλυση γενετικής ποικιλότητας και γονιδιακής ροής καστανεώνα και απομονωμένου φυσικού πληθυσμού καστανιάς στη νήσο Λέσβο με ουδέτερους και μη μοριακούς δείκτες},
+            pdfauthor={Νικόλαος Τουρβάς},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Ανάλυση γενετικής ποικιλότητας και γονιδιακής ροής καστανεώνα και
+απομονωμένου φυσικού πληθυσμού καστανιάς στη νήσο Λέσβο με ουδέτερους
+και μη μοριακούς δείκτες}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \subtitle{~}
+  \author{Νικόλαος Τουρβάς}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{Οκτώβριος 2018}
+
+\usepackage[greek]{babel}
+
+\begin{document}
+\maketitle
+
+\section{Εισαγωγή}
+
+Γιατί πρέπει να μελετηθεί η γεν. ποικ - διαφ
+
+Σημασία γενετικής ποικ Long term see introduction\textsuperscript{1}
+Γεωργία vs δασοπονία φυσικοί πληθυσμοί και Γανό σελ
+19\textsuperscript{2} τι γίνεται με τους καστανεώνες, δες Πετρόπουλος.
+βοήθεια σε προγρ βελτίωσης: Γανό σελ 22
+
+Σημαντικό είδος γιατί\ldots{}
+
+Καρπός ξύλο γενετική βελτίωση σε χώρες - όπως Μαλλιαρού για οξυά
+
+\hypertarget{-}{%
+\section{Θεωρητικό πλαίσιο}\label{-}}
+
+Refugia - Gene flow - Long term\textsuperscript{3,4} Founder effect από
+ανθρω
+
+Δυο λόγια για τη διεθνή βιβλιογραφία. Υπάρχει ή δεν υπάρχει ποικιλότητα;
+"Γενικα'έχει βρεθεί ότι \ldots{} {[}\ldots{}{]} Συγκεκριμένα στην
+Ελλάδα\ldots{}
+
+\hypertarget{-}{%
+\section{Ερευνητικά ερωτήματα}\label{-}}
+
+\begin{itemize}
+\tightlist
+\item
+  γενετικός χαρακτηρισμός καστανεώνα και κατ' επέκταση της ποικιλίας και
+  φυσικού πληθυσμού
+\item
+  μελέτη γονιδιακής ροής μεταξύ των δύο πληθυσμών
+\end{itemize}
+
+\section{Μεθοδολογία}
+
+\hypertarget{----dna}{%
+\subsection{Συλλογή φυτικού υλικού \& Εκχύλιση DNA}\label{----dna}}
+
+Γενετικό υλικό παρέχεται από το Ινστιτούτο Γενετικής Βελτίωσης\\
+CTAB
+
+\hypertarget{---}{%
+\subsection{Αλυσιδωτή αντίδραση πολυμεράσης \& Γενοτύπηση}\label{---}}
+
+10 SSR citation??? θα χρησιμοποιήσουμε SSR γιατί είναι κατάλληλοι για τη
+μελέτη πρόσφατων μικροεξελικτικών διαδικασιών\textsuperscript{5} Πώς θα
+γίνουν οι ομάδες multiplex --\textgreater{} diveRsity ABI3730xl
+σκοράρισμα --\textgreater{} GeneMapper
+
+\hypertarget{---}{%
+\subsection{Βασικές παράμετροι γενετικής ποικιλότητας}\label{---}}
+
+ΜΑΛΛΟΝ ΠΡΕΠΕΙ ΝΑ ΦΤΙΑΞΩ ΠΙΝΑΚΑ ΜΕ ΛΟΓΙΣΜΙΚΑ ΚΑΙ ΤΙ ΘΑ ΚΑΝΟΥΝ
+R\textsuperscript{6} adegenet\textsuperscript{7}
+poppr\textsuperscript{8} hierfstat\textsuperscript{9}
+genepop\textsuperscript{10} pegas ape fangorn
+
+αριθμός διαφορετικών γενοτύπων (multilocus genotypes) Allelic richness -
+indicator να σημειωθεί ML\_Null-Freq LGP Fst outliers --\textgreater{}
+BAYESCAN outflank
+
+NeEstimator -\textgreater{} BOTTLENECK
+
+R Notebook - R markdown
+
+\subsection{διαφοροποίηση}
+
+Nei's Ds, Cav-Sf για φυλογενετικά\textsuperscript{11}
+F\textsubscript{ST}, G''\textsubscript{ST}, D\textsubscript{est} PCA, CA
+AMOVA φυλογενετική ape STRUCTURE DAPC
+
+\hypertarget{-}{%
+\subsection{Γενετική τοπίου}\label{-}}
+
+γονιδιακή ροη - Nm=1/4FSt και MIGRATE IBD - mantel test - adegenet, ape
+Genetic boundaries γενετικά φράγματα φραγμοί- Monmonier's algorithm sPCA
+Geneland DIYABC ??? GeneClass2 ???
+
+\hypertarget{-}{%
+\section{Αναμενόμενα αποτελέσματα}\label{-}}
+
+Τι θα μάθουμε από αυτή τη μελέτη\ldots{} χαρακτηρισμός ποικιλίας Λέσβου
+gene flow
+
+\hypertarget{-}{%
+\section{Χρηματοδότηση / Χρονοδιάγραμμα}\label{-}}
+
+\textsuperscript{12}
+
+\section{Βιβλιογραφία}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-Pollegioni2011}{}%
+1. Pollegioni, P. \emph{et al.} Long-term human impacts on genetic
+structure of Italian walnut inferred by SSR markers. \emph{Tree Genetics
+\& Genomes} \textbf{7,} 707--723 (2011).
+
+\leavevmode\hypertarget{ref-Ganopoulos2013}{}%
+2. Ganopoulos, I.
+\(\Delta\)\(\iota\)\(\epsilon\)\(\rho\)\(\epsilon\)ύ\(\nu\)\(\eta\)\(\sigma\)\(\eta\)
+\(\gamma\)\(\epsilon\)\(\nu\)\(\epsilon\)\(\tau\)\(\iota\)\(\kappa\)ής
+\(\pi\)ο\(\iota\)\(\kappa\)\(\iota\)\(\lambda\)ό\(\tau\)\(\eta\)\(\tau\)\(\alpha\)ς,
+\(\tau\)\(\alpha\)\(\upsilon\)\(\tau\)ο\(\pi\)οί\(\eta\)\(\sigma\)\(\eta\)
+\(\kappa\)\(\alpha\)\(\iota\)
+\(\epsilon\)\(\phi\)\(\alpha\)\(\rho\)\(\mu\)ο\(\gamma\)ή
+\(\lambda\)\(\epsilon\)\(\iota\)\(\tau\)ο\(\upsilon\)\(\rho\)\(\gamma\)\(\iota\)\(\kappa\)ώ\(\nu\)
+\(\delta\)\(\epsilon\)\(\iota\)\(\kappa\)\(\tau\)ώ\(\nu\)
+\(\sigma\)\(\tau\)\(\eta\)\(\nu\)
+\(\kappa\)\(\epsilon\)\(\rho\)\(\alpha\)\(\sigma\)\(\iota\)ά (Prunus
+avium L.). 216 (2013).
+
+\leavevmode\hypertarget{ref-Petit2003}{}%
+3. Petit, R. J. \emph{et al.} Glacial refugia: Hotspots but not melting
+pots of genetic diversity. \emph{Science} \textbf{300,} 1563--1565
+(2003).
+
+\leavevmode\hypertarget{ref-Petit2005}{}%
+4. Petit, R. J. \emph{et al.} Comparative organization of chloroplast,
+mitochondrial and nuclear diversity in plant populations.
+\emph{Molecular Ecology} \textbf{14,} 689--701 (2005).
+
+\leavevmode\hypertarget{ref-Wang2010a}{}%
+5. Wang, I. J. Recognizing the temporal distinctions between landscape
+genetics and phylogeography. \emph{Molecular Ecology} \textbf{19,}
+2605--2608 (2010).
+
+\leavevmode\hypertarget{ref-RCoreTeam2018}{}%
+6. R Core Team. \emph{R: A Language and Environment for Statistical
+Computing}. (R Foundation for Statistical Computing, 2018).
+
+\leavevmode\hypertarget{ref-Jombart2008}{}%
+7. Jombart, T. adegenet: a R package for the multivariate analysis of
+genetic markers. \emph{Bioinformatics} \textbf{24,} 1403--1405 (2008).
+
+\leavevmode\hypertarget{ref-Kamvar2014}{}%
+8. Kamvar, Z. N., Tabima, J. F. \& Grünwald, N. J. Poppr : an R package
+for genetic analysis of populations with clonal, partially clonal,
+and/or sexual reproduction. \emph{PeerJ} \textbf{2,} e281 (2014).
+
+\leavevmode\hypertarget{ref-Goudet2005}{}%
+9. Goudet, J. HIERFSTAT, a package for R to compute and test
+hierarchical F-statistics. \emph{Molecular Ecology Notes} \textbf{5,}
+184--186 (2005).
+
+\leavevmode\hypertarget{ref-Rousset2008}{}%
+10. Rousset, F. genepop'007: a complete re-implementation of the genepop
+software for Windows and Linux. \emph{Molecular Ecology Resources}
+\textbf{8,} 103--106 (2008).
+
+\leavevmode\hypertarget{ref-Takezaki1996}{}%
+11. Takezaki, N. \& Nei, M. Genetic distances and the setting of
+conservation priorities. \emph{Biological Conservation} \textbf{75,} 311
+(1996).
+
+\leavevmode\hypertarget{ref-Villani1991}{}%
+12. Villani, F., Pigliucci, M., Benedettelli, S. \& Cherubini, M.
+Genetic differentiation among Turkish chestnut (
+\(\backslash\)textit\{Castanea sativa\} Mill.) populations.
+\emph{Heredity} \textbf{66,} 131--136 (1991).
+
+
+\end{document}

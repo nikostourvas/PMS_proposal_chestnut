@@ -1,0 +1,125 @@
+---
+title: Ανάλυση γενετικής ποικιλότητας και γονιδιακής ροής καστανεώνα και απομονωμένου
+  φυσικού πληθυσμού καστανιάς στη νήσο Λέσβο με ουδέτερους και μη μοριακούς δείκτες
+subtitle: "&nbsp;" 
+author: Νικόλαος Τουρβάς
+fontsize: 12pt
+papersize: a4
+date: "Οκτώβριος 2018"
+documentclass: report
+output:
+  bookdown::pdf_document2:
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: no
+    number_sections: no
+  bookdown::word_document2:
+    toc: yes
+header-includes: 
+  \usepackage[greek]{babel}
+  # \usepackage{extsizes}
+linestretch: 1.15
+lof: no
+lot: no
+mainfont: Liberation Serif
+# geometry: margin=2.54cm
+bibliography: library.bib
+csl: nature.csl
+---
+
+ <!-- Εισαγωγή και Θεωρ. πλαίσιο μπορούν να γίνουν μια ενότητα!!! --> 
+ 
+## Εισαγωγή
+
+Γιατί πρέπει να μελετηθεί η γεν. ποικ - διαφ
+
+Σημασία γενετικής ποικ Long term see introduction [@Pollegioni2011]
+Γεωργία vs δασοπονία φυσικοί πληθυσμοί και Γανό σελ 19 [@Ganopoulos2013]
+  τι γίνεται με τους καστανεώνες, δες Πετρόπουλος. 
+βοήθεια σε προγρ βελτίωσης: Γανό σελ 22
+
+
+Σημαντικό είδος γιατί...
+
+Καρπός ξύλο
+γενετική βελτίωση σε χώρες - όπως Μαλλιαρού για οξυά
+
+
+## Θεωρητικό πλαίσιο
+
+Refugia - Gene flow - Long term [@Petit2003; @Petit2005]
+Founder effect από ανθρω
+
+Δυο λόγια για τη διεθνή βιβλιογραφία. 
+Υπάρχει ή δεν υπάρχει ποικιλότητα; "Γενικα'έχει βρεθεί ότι ... [...] 
+Συγκεκριμένα στην Ελλάδα...
+  
+## Ερευνητικά ερωτήματα
+
+- γενετικός χαρακτηρισμός καστανεώνα και κατ' επέκταση της ποικιλίας και φυσικού πληθυσμού
+- μελέτη γονιδιακής ροής μεταξύ των δύο πληθυσμών
+
+## Μεθοδολογία
+
+### Συλλογή φυτικού υλικού & Εκχύλιση DNA
+Γενετικό υλικό παρέχεται από το Ινστιτούτο Γενετικής Βελτίωσης  
+CTAB
+
+### Αλυσιδωτή αντίδραση πολυμεράσης & Γενοτύπηση
+10 SSR citation??? 
+θα χρησιμοποιήσουμε SSR γιατί είναι κατάλληλοι για τη μελέτη πρόσφατων μικροεξελικτικών διαδικασιών [@Wang2010a]
+Πώς θα γίνουν οι ομάδες multiplex --> diveRsity
+ABI3730xl σκοράρισμα --> GeneMapper
+
+### Βασικές παράμετροι γενετικής ποικιλότητας 
+ΜΑΛΛΟΝ ΠΡΕΠΕΙ ΝΑ ΦΤΙΑΞΩ ΠΙΝΑΚΑ ΜΕ ΛΟΓΙΣΜΙΚΑ ΚΑΙ ΤΙ ΘΑ ΚΑΝΟΥΝ
+R [@RCoreTeam2018]
+adegenet [@Jombart2008]
+poppr [@Kamvar2014]
+hierfstat [@Goudet2005]
+genepop [@Rousset2008]
+pegas
+ape
+fangorn
+
+αριθμός διαφορετικών γενοτύπων (multilocus genotypes)
+Allelic richness - indicator να σημειωθεί
+ML_Null-Freq
+LGP
+Fst outliers --> BAYESCAN outflank
+
+NeEstimator ->
+BOTTLENECK 
+
+R Notebook - R markdown
+
+### διαφοροποίηση
+Nei's Ds, Cav-Sf για φυλογενετικά [@Takezaki1996]
+F~ST~, G''~ST~, D~est~
+PCA, CA
+AMOVA
+φυλογενετική ape
+STRUCTURE 
+DAPC
+
+### Γενετική τοπίου
+γονιδιακή ροη - Nm=1/4FSt και MIGRATE
+IBD - mantel test - adegenet, ape
+Genetic boundaries γενετικά φράγματα φραγμοί- Monmonier's algorithm
+sPCA
+Geneland
+DIYABC ???
+GeneClass2 ???
+
+## Αναμενόμενα αποτελέσματα
+Τι θα μάθουμε από αυτή τη μελέτη...
+χαρακτηρισμός ποικιλίας Λέσβου
+gene flow
+
+
+## Χρηματοδότηση / Χρονοδιάγραμμα
+
+[@Villani1991]
+
+## Βιβλιογραφία
+<!-- &nbsp;  -->
