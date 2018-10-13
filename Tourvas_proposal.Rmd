@@ -24,22 +24,21 @@ lot: no
 mainfont: Liberation Serif
 # geometry: margin=2.54cm
 bibliography: library.bib
-csl: nature.csl
+csl: elsevier-harvard.csl
 ---
 
  <!-- Εισαγωγή και Θεωρ. πλαίσιο μπορούν να γίνουν μια ενότητα!!! --> 
  
 ## Εισαγωγή
 
-Γιατί πρέπει να μελετηθεί η γεν. ποικ - διαφ
+Γιατί πρέπει να μελετηθεί η γεν. ποικ - διαφ 
 
-Σημασία γενετικής ποικ Long term see introduction [@pollegioni_long-term_2011]
+Σημασία γενετικής ποικ Long term see introduction [@Pollegioni2011]
 Selection may erode genetic diversity, which is a crucial factor for the success of breeding programs.
 
-Γεωργία vs δασοπονία φυσικοί πληθυσμοί και Γανό σελ 19 [@ganopoulos__2013]
-  τι γίνεται με τους καστανεώνες, δες Πετρόπουλος. 
-βοήθεια σε προγρ βελτίωσης: Γανό σελ 22
-
+Γεωργία vs δασοπονία φυσικοί πληθυσμοί και Γανό σελ 19 [@__2013]
+  τι γίνεται με τους καστανεώνες, δες Πετρόπουλος. [@2016a]
+βοήθεια σε προγρ βελτίωσης: Γανό σελ 22 
 
 Σημαντικό είδος γιατί...
 
@@ -49,7 +48,7 @@ Selection may erode genetic diversity, which is a crucial factor for the success
 
 ## Θεωρητικό πλαίσιο
 
-Refugia - Gene flow - Long term [@petit_comparative_2005; @petit_glacial_2003]
+Refugia - Gene flow - Long term [@Petit2003; @Petit2005]
 Founder effect από ανθρω
 
 Δυο λόγια για τη διεθνή βιβλιογραφία. 
@@ -68,18 +67,29 @@ Founder effect από ανθρω
 CTAB
 
 ### Αλυσιδωτή αντίδραση πολυμεράσης & Γενοτύπηση
-10 SSR citation??? 
-θα χρησιμοποιήσουμε SSR γιατί είναι κατάλληλοι για τη μελέτη πρόσφατων μικροεξελικτικών διαδικασιών [@wang_recognizing_2010]
+
+```{r echo=FALSE}
+library(magrittr)
+library(kableExtra)
+kable(mtcars[1:10, 1:6], caption = "Group Rows") %>%
+  kable_styling("striped", full_width = F) %>%
+  group_rows("Group 1", 4, 7) %>%
+  group_rows("Group 2", 8, 10)
+```
+
+
+3 SSR and 5 EST-SSR citation??? is it this citation? [@marinoni_development_2003]
+θα χρησιμοποιήσουμε SSR γιατί είναι κατάλληλοι για τη μελέτη πρόσφατων μικροεξελικτικών διαδικασιών [@Wang2010a]
 Πώς θα γίνουν οι ομάδες multiplex --> diveRsity
 ABI3730xl σκοράρισμα --> GeneMapper
 
 ### Βασικές παράμετροι γενετικής ποικιλότητας 
 ΜΑΛΛΟΝ ΠΡΕΠΕΙ ΝΑ ΦΤΙΑΞΩ ΠΙΝΑΚΑ ΜΕ ΛΟΓΙΣΜΙΚΑ ΚΑΙ ΤΙ ΘΑ ΚΑΝΟΥΝ
-R [@r_core_team_r:_2018]
-adegenet [@jombart_adegenet:_2008]
-poppr [@kamvar_poppr_2014]
-hierfstat [@goudet_hierfstat_2004]
-genepop [@rousset_genepop007:_2008]
+R [@RCoreTeam2018]
+adegenet [@Jombart2008]
+poppr [@Kamvar2014]
+hierfstat [@goudet_hierfstat_2005]
+genepop [@Rousset2008]
 pegas
 ape
 fangorn
@@ -96,7 +106,7 @@ BOTTLENECK
 R Notebook - R markdown
 
 ### διαφοροποίηση
-Nei's Ds, Cav-Sf για φυλογενετικά [@takezaki_genetic_1996]
+Nei's Ds, Cav-Sf για φυλογενετικά 
 F~ST~, G''~ST~, D~est~
 PCA, CA
 AMOVA
@@ -121,7 +131,7 @@ gene flow
 
 ## Χρηματοδότηση / Χρονοδιάγραμμα
 
-[@villani_genetic_1991]
+[@Villani1991]
 
 ## Βιβλιογραφία
 <!-- &nbsp;  -->
