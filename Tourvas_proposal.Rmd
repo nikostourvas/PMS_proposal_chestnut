@@ -115,6 +115,7 @@ STRUCTURE
 DAPC
 
 ### Γενετική τοπίου
+δες οπωσδήποτε [@Leonarduzzi2016a]
 γονιδιακή ροη - Nm=1/4FSt και MIGRATE
 IBD - mantel test - adegenet, ape
 Genetic boundaries γενετικά φράγματα φραγμοί- Monmonier's algorithm
