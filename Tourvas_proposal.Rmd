@@ -63,7 +63,9 @@ Founder effect από ανθρω
 ## Μεθοδολογία
 
 ### Συλλογή φυτικού υλικού & Εκχύλιση DNA
-Γενετικό υλικό παρέχεται από το Ινστιτούτο Γενετικής Βελτίωσης  
+Τουλάχιστον 25 άτομα από κάθε πληθυσμό?
+Αναγέννηση - αν ναι ενδεχομένως περισσότερα άτομα ???
+
 CTAB
 
 ### Αλυσιδωτή αντίδραση πολυμεράσης & Γενοτύπηση
@@ -101,7 +103,8 @@ LGP
 Fst outliers --> BAYESCAN outflank
 
 NeEstimator ->
-BOTTLENECK 
+M ratio -> υποδεικνύει μείωση μεγέθους πληθυσμού σε μεγάλα χρονικά διαστήματα [@Aleksic2014]
+BOTTLENECK -> πρόσφατες γενετικές στενωπούς (2 N~e~ - 4 N~e~ γενεές)
 
 R Notebook - R markdown
 
@@ -110,17 +113,19 @@ Nei's Ds, Cav-Sf για φυλογενετικά
 F~ST~, G''~ST~, D~est~
 PCA, CA
 AMOVA
-φυλογενετική ape
+φυλογενετική ape Cavalli-Sforza - Μάλλον δε χρειάζεται για 2 πληθυσμούς. Αν όμως προστεθούν κ άλλοι
 STRUCTURE 
 DAPC
 
 ## Γονιδιακή ροή
-δες οπωσδήποτε [@Leonarduzzi2016a]
-Cervus 
+δες οπωσδήποτε [@Aleksic2014; @Leonarduzzi2016a]
+Cervus (see SM1 Leonarduzzi) -> ποσοστό παιδιών που οι γονείς τους είναι άτομα του πληθυσμού
+<!-- άρα απαιτεί δειγματοληψία αναγέννησης-->
+Nm=1/4FSt παραδοσιακή μέθοδος
+STRUCTURE μοντέλο πρόδρομης γνώσης πληθυσμών -> δες [@Aleksic2014; @pritchard_inference_2000]
+MIGRATE ???
 
 ### Γενετική τοπίου
-
-γονιδιακή ροη - Nm=1/4FSt και MIGRATE
 IBD - mantel test - adegenet, ape
 Genetic boundaries γενετικά φράγματα φραγμοί- Monmonier's algorithm
 sPCA
@@ -129,7 +134,13 @@ DIYABC ???
 GeneClass2 ???
 
 ## Αναμενόμενα αποτελέσματα
-Τι θα μάθουμε από αυτή τη μελέτη...
+Τι θα μάθουμε από αυτή τη ### Γενετική τοπίου
+IBD - mantel test - adegenet, ape
+Genetic boundaries γενετικά φράγματα φραγμοί- Monmonier's algorithm
+sPCA
+Geneland
+DIYABC ???
+GeneClass2 ???μελέτη...
 χαρακτηρισμός ποικιλίας Λέσβου
 gene flow
 
