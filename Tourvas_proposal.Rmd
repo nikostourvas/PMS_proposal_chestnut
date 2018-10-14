@@ -114,8 +114,12 @@ AMOVA
 STRUCTURE 
 DAPC
 
-### Γενετική τοπίου
+## Γονιδιακή ροή
 δες οπωσδήποτε [@Leonarduzzi2016a]
+Cervus 
+
+### Γενετική τοπίου
+
 γονιδιακή ροη - Nm=1/4FSt και MIGRATE
 IBD - mantel test - adegenet, ape
 Genetic boundaries γενετικά φράγματα φραγμοί- Monmonier's algorithm
