@@ -26,14 +26,19 @@ mainfont: Liberation Serif
 bibliography: library.bib
 csl: elsevier-harvard.csl
 ---
+<!-- Things to fix in .tex document
+1. fix title size
+2. table hlines
+3. first line of each reference sticking out-->
 
  <!-- Εισαγωγή και Θεωρ. πλαίσιο μπορούν να γίνουν μια ενότητα!!! --> 
  
 ## Εισαγωγή
 
 Γιατί πρέπει να μελετηθεί η γεν. ποικ - διαφ 
-
+...Η (ευρωπαϊκή???) καστανιά (_Castanea sativa_ Mill.) is one of the most ancient and widespread
 Σημασία γενετικής ποικ Long term see introduction [@Pollegioni2011]
+ΔΕΣ Παπαδήμα Καστοριά
 Selection may erode genetic diversity, which is a crucial factor for the success of breeding programs.
 
 Γεωργία vs δασοπονία φυσικοί πληθυσμοί και Γανό σελ 19 [@__2013]
@@ -44,6 +49,12 @@ Selection may erode genetic diversity, which is a crucial factor for the success
 
 Καρπός ξύλο
 γενετική βελτίωση σε χώρες - όπως Μαλλιαρού για οξυά
+
+<!-- !["Abies image"](Abies_alba_foliage_illustration.jpg) -->
+
+<!-- ```{r echo=FALSE, fig.cap="Abies alba", out.width='50%', fig.align='center'} -->
+<!-- knitr::include_graphics(path="/home/nikos/R_projects/PMS_proposal_chestnut/Abies_alba_foliage_illustration.jpg") -->
+<!-- ``` -->
 
 
 ## Θεωρητικό πλαίσιο
@@ -57,6 +68,7 @@ Founder effect από ανθρω
   
 ## Ερευνητικά ερωτήματα
 
+- μελέτη γενετικής ποικιλότητας των 2 πληθ
 - γενετικός χαρακτηρισμός καστανεώνα και κατ' επέκταση της ποικιλίας και φυσικού πληθυσμού
 - μελέτη γονιδιακής ροής μεταξύ των δύο πληθυσμών
 
@@ -75,8 +87,11 @@ library(magrittr)
 library(kableExtra)
 kable(mtcars[1:10, 1:6], caption = "Group Rows") %>%
   kable_styling("striped", full_width = F) %>%
-  group_rows("Group 1", 4, 7) %>%
-  group_rows("Group 2", 8, 10)
+  group_rows("Group 1", 1, 7) %>%
+  group_rows("Group 2", 8, 9) %>% 
+  group_rows("Mean values", 10, 10) %>% 
+  row_spec(10:10, bold = T) %>% # last line bold
+  add_footnote("This is a footnote. *** means highly significant")
 ```
 
 
@@ -117,7 +132,7 @@ AMOVA
 STRUCTURE 
 DAPC
 
-## Γονιδιακή ροή
+### Γονιδιακή ροή
 δες οπωσδήποτε [@Aleksic2014; @Leonarduzzi2016a]
 Cervus (see SM1 Leonarduzzi) -> ποσοστό παιδιών που οι γονείς τους είναι άτομα του πληθυσμού
 <!-- άρα απαιτεί δειγματοληψία αναγέννησης-->

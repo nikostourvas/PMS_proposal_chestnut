@@ -113,11 +113,12 @@
 
 \section{Εισαγωγή}
 
-Γιατί πρέπει να μελετηθεί η γεν. ποικ - διαφ
-
-Σημασία γενετικής ποικ Long term see introduction (Pollegioni et al.,
-2011) Selection may erode genetic diversity, which is a crucial factor
-for the success of breeding programs.
+Γιατί πρέπει να μελετηθεί η γεν. ποικ - διαφ \ldots{}Η (ευρωπαϊκή???)
+καστανιά (\emph{Castanea sativa} Mill.) is one of the most ancient and
+widespread Σημασία γενετικής ποικ Long term see introduction (Pollegioni
+et al., 2011) ΔΕΣ Παπαδήμα Καστοριά Selection may erode genetic
+diversity, which is a crucial factor for the success of breeding
+programs.
 
 Γεωργία vs δασοπονία φυσικοί πληθυσμοί και Γανό σελ 19 (Γανόπουλος,
 2013) τι γίνεται με τους καστανεώνες, δες Πετρόπουλος. (Πετρόπουλος,
@@ -143,6 +144,8 @@ effect από ανθρω
 \begin{itemize}
 \tightlist
 \item
+  μελέτη γενετικής ποικιλότητας των 2 πληθ
+\item
   γενετικός χαρακτηρισμός καστανεώνα και κατ' επέκταση της ποικιλίας και
   φυσικού πληθυσμού
 \item
@@ -154,7 +157,9 @@ effect από ανθρω
 \hypertarget{----dna}{%
 \subsection{Συλλογή φυτικού υλικού \& Εκχύλιση DNA}\label{----dna}}
 
-Γενετικό υλικό παρέχεται από το Ινστιτούτο Γενετικής Βελτίωσης\\
+Τουλάχιστον 25 άτομα από κάθε πληθυσμό? Αναγέννηση - αν ναι ενδεχομένως
+περισσότερα άτομα ???
+
 CTAB
 
 \hypertarget{---}{%
@@ -168,13 +173,13 @@ CTAB
 \hline
   & mpg & cyl & disp & hp & drat & wt\\
 \hline
-Mazda RX4 & 21.0 & 6 & 160.0 & 110 & 3.90 & 2.620\\
-\hline
-Mazda RX4 Wag & 21.0 & 6 & 160.0 & 110 & 3.90 & 2.875\\
-\hline
-Datsun 710 & 22.8 & 4 & 108.0 & 93 & 3.85 & 2.320\\
-\hline
 \multicolumn{7}{l}{\textbf{Group 1}}\\
+\hline
+\hspace{1em}Mazda RX4 & 21.0 & 6 & 160.0 & 110 & 3.90 & 2.620\\
+\hline
+\hspace{1em}Mazda RX4 Wag & 21.0 & 6 & 160.0 & 110 & 3.90 & 2.875\\
+\hline
+\hspace{1em}Datsun 710 & 22.8 & 4 & 108.0 & 93 & 3.85 & 2.320\\
 \hline
 \hspace{1em}Hornet 4 Drive & 21.4 & 6 & 258.0 & 110 & 3.08 & 3.215\\
 \hline
@@ -190,8 +195,11 @@ Datsun 710 & 22.8 & 4 & 108.0 & 93 & 3.85 & 2.320\\
 \hline
 \hspace{1em}Merc 230 & 22.8 & 4 & 140.8 & 95 & 3.92 & 3.150\\
 \hline
-\hspace{1em}Merc 280 & 19.2 & 6 & 167.6 & 123 & 3.92 & 3.440\\
+\multicolumn{7}{l}{\textbf{Mean values}}\\
 \hline
+\textbf{\hspace{1em}Merc 280} & \textbf{19.2} & \textbf{6} & \textbf{167.6} & \textbf{123} & \textbf{3.92} & \textbf{3.440}\\
+\hline
+\multicolumn{7}{l}{\textsuperscript{a} This is a footnote. *** means highly significant}\\
 \end{tabular}
 \end{table}
 
@@ -212,7 +220,10 @@ hierfstat (Goudet, 2005) genepop (Rousset, 2008) pegas ape fangorn
 indicator να σημειωθεί ML\_Null-Freq LGP Fst outliers --\textgreater{}
 BAYESCAN outflank
 
-NeEstimator -\textgreater{} BOTTLENECK
+NeEstimator -\textgreater{} M ratio -\textgreater{} υποδεικνύει μείωση
+μεγέθους πληθυσμού σε μεγάλα χρονικά διαστήματα (Aleksic and Geburek,
+2014) BOTTLENECK -\textgreater{} πρόσφατες γενετικές στενωπούς (2
+N\textsubscript{e} - 4 N\textsubscript{e} γενεές)
 
 R Notebook - R markdown
 
@@ -220,21 +231,31 @@ R Notebook - R markdown
 
 Nei's Ds, Cav-Sf για φυλογενετικά F\textsubscript{ST},
 G''\textsubscript{ST}, D\textsubscript{est} PCA, CA AMOVA φυλογενετική
-ape STRUCTURE DAPC
+ape Cavalli-Sforza - Μάλλον δε χρειάζεται για 2 πληθυσμούς. Αν όμως
+προστεθούν κ άλλοι STRUCTURE DAPC
+
+\hypertarget{-}{%
+\subsection{Γονιδιακή ροή}\label{-}}
+
+δες οπωσδήποτε (Aleksic and Geburek, 2014; Leonarduzzi et al., 2016)
+Cervus (see SM1 Leonarduzzi) -\textgreater{} ποσοστό παιδιών που οι
+γονείς τους είναι άτομα του πληθυσμού Nm=1/4FSt παραδοσιακή μέθοδος
+STRUCTURE μοντέλο πρόδρομης γνώσης πληθυσμών -\textgreater{} δες
+(Aleksic and Geburek, 2014; Pritchard et al., 2000) MIGRATE ???
 
 \hypertarget{-}{%
 \subsection{Γενετική τοπίου}\label{-}}
 
-δες οπωσδήποτε (Leonarduzzi et al., 2016) γονιδιακή ροη - Nm=1/4FSt και
-MIGRATE IBD - mantel test - adegenet, ape Genetic boundaries γενετικά
-φράγματα φραγμοί- Monmonier's algorithm sPCA Geneland DIYABC ???
-GeneClass2 ???
+IBD - mantel test - adegenet, ape Genetic boundaries γενετικά φράγματα
+φραγμοί- Monmonier's algorithm sPCA Geneland DIYABC ??? GeneClass2 ???
 
 \hypertarget{-}{%
 \section{Αναμενόμενα αποτελέσματα}\label{-}}
 
-Τι θα μάθουμε από αυτή τη μελέτη\ldots{} χαρακτηρισμός ποικιλίας Λέσβου
-gene flow
+Τι θα μάθουμε από αυτή τη \#\#\# Γενετική τοπίου IBD - mantel test -
+adegenet, ape Genetic boundaries γενετικά φράγματα φραγμοί- Monmonier's
+algorithm sPCA Geneland DIYABC ??? GeneClass2 ???μελέτη\ldots{}
+χαρακτηρισμός ποικιλίας Λέσβου gene flow
 
 \hypertarget{-}{%
 \section{Χρηματοδότηση / Χρονοδιάγραμμα}\label{-}}
@@ -244,6 +265,12 @@ gene flow
 \section{Βιβλιογραφία}
 
 \hypertarget{refs}{}
+\leavevmode\hypertarget{ref-Aleksic2014}{}%
+Aleksic, J.M., Geburek, T., 2014. Quaternary population dynamics of an
+endemic conifer, Picea omorika, and their conservation implications.
+Conservation Genetics 15, 87--107.
+\url{https://doi.org/10.1007/s10592-013-0523-6}
+
 \leavevmode\hypertarget{ref-goudet_hierfstat_2005}{}%
 Goudet, J., 2005. Hierfstat, a package for r to compute and test
 hierarchical F-statistics. Molecular Ecology Notes 5, 184--186.
@@ -293,6 +320,11 @@ Emilia Malvolti, M., 2011. Long-term human impacts on genetic structure
 of Italian walnut inferred by SSR markers. Tree Genetics \& Genomes 7,
 707--723. \url{https://doi.org/10.1007/s11295-011-0368-4}
 
+\leavevmode\hypertarget{ref-pritchard_inference_2000}{}%
+Pritchard, J.K., Stephens, M., Donnelly, P., 2000. Inference of
+Population Structure Using Multilocus Genotype Data. Genetics 155,
+945--959.
+
 \leavevmode\hypertarget{ref-RCoreTeam2018}{}%
 R Core Team, 2018. R: A Language and Environment for Statistical
 Computing.
@@ -321,8 +353,7 @@ L.) (Διδακτορική Διατριβή). Αριστοτέλειο Πανε
 \leavevmode\hypertarget{ref-2016a}{}%
 Πετρόπουλος, Σ., 2016. Γενετική ποικιλότητα συμπατρικών πληθυσμών
 καστανιας (\emph{Castanea Sativa} Mill.) και των καρποφάγων εντόμων
-αυτής (Mεταπτυχιακή Διατριβή). Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης,
-Θεσσαλονίκη.
+αυτής (Mεταπτυχιακή Διατριβή). Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης.
 
 
 \end{document}
